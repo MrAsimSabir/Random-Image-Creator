@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+  margin:0;
+  padding:0;
+}
+button{
+  width:7rem;
+  height:3rem;
+  border-radius:2rem;
+  background-color:black;
+  color:white;
+  transition: background-color 2s ease-in-out, color 2s ease-in-out;
+}
+button:focus{
+  background-color:white;
+  color:black;
+  outline:none;
+  
+}
